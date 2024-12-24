@@ -1,0 +1,48 @@
+.explore-slider-container {
+    position: relative;
+    background-color: #ff407d;
+    box-sizing: border-box;
+    height: 280px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
+  
+  .explore-slider-images {
+    display: flex; 
+    overflow: hidden;
+    justify-content: space-around;
+  }
+  
+  .explore-slider-image {
+    flex-shrink: 0;
+    max-width: calc(100% / 3.1); 
+    border-radius: 8px;
+  }
+  
+  .explore-arrow {
+    position: absolute;
+    top: 43%;
+    background-color: rgba(0, 0, 0, 0);
+    color: #1b3c73;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 10;
+    border-radius: 30%
+  }
+  
+  .explore-left-arrow {
+    left: 10px;
+  }
+  
+  .explore-right-arrow {
+   right: 10px;
+  }
+  
+  .explore-arrow:hover {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  

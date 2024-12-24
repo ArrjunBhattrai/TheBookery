@@ -1,0 +1,130 @@
+.explore-container{
+    margin-top: 30px;
+}
+.recently-added-container{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr;
+    padding-bottom: 30px;
+    margin-right: 20px;
+}
+
+.cards-1{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 30px;
+}
+.rebuy-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffacbc;
+    border-radius: 10px;
+    width: 350px ;
+    
+}
+.rebuy-image{
+    margin: auto;
+    margin-bottom: 15px;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+.rebuy-text{
+    color: #1b3c73;
+    margin-left: 35%;
+    font-size: 25px;
+    font-family: 'Montserrat',sans-serif ;
+}
+.explore-wishlist-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffacbc;
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.explore-wishlist-text{
+    color: #1b3c73;
+    margin-left: 30px;
+    font-size: 25px;
+    font-family: 'Montserrat',sans-serif ;
+}
+.explore-wishlist-image{
+    margin: auto;
+    height: 300px;
+    width: 280px;
+    border-radius: 15px;
+}
+.cards-2{
+    display: flex;
+    justify-content: space-around;
+}
+.pwb-ab-container{
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+    height: 400px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.pwb-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+
+}
+.pwb-img-container{
+    height: 280px;
+    width: 200px;
+    overflow: hidden;
+    background-color: #ffacbc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.pwb-image{
+    height: 180px;
+    width: 140px;
+    border-radius: 8px;
+   
+}
+.pwb-text{
+    color: #ff407d;
+    font-size: 20px;
+    font-family:  'Montserrat',sans-serif;
+}
+.ab-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+
+}
+.ab-img-container{
+    height: 280px;
+    width: 200px;
+    overflow: hidden;
+    background-color: #ffacbc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+.ab-image{
+    height: 180px;
+    width: 140px;
+    border-radius: 8px;
+}
+.ab-text{
+    color: #ff407d;
+    font-size: 20px;
+    font-family: 'Montserrat',sans-serif;
+}

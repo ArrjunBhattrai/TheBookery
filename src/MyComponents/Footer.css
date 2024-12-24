@@ -1,0 +1,25 @@
+.footer-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #213555;
+}
+.footer-card{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.footer-item-card{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-item{
+    text-decoration: none;
+    color: #F5EFE7;
+    margin-bottom: 5px;
+}
+.footer-heading{
+    font-size: x-large;
+    color: #F5EFE7;
+}

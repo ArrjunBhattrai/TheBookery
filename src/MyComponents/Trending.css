@@ -1,0 +1,34 @@
+.trending-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.banner-container{
+    height: 300px;
+    background-color: #40679e;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.image{
+    height: 100%;
+    width: 700px;
+    margin: auto;
+    margin-top: -20px;
+}
+.text{
+    text-align: center;
+    margin-top: 50px;
+    color: #ff407d;
+}
+.fiction-slider-container{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 100px;
+}
+.selfhelp-slider-container{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 100px;
+}
